@@ -55,9 +55,9 @@
          <div class="col-sm-3" style="background-color: #4863A0">
 
 				<h5>become one of us</h5>
-        <a href="login.php" class="btn btn-large btn-outline-warning btn-block ">Sign up</a>
-				<p>Already have an account?</p>
-                <a href="login.php" class="btn btn-large btn-outline-warning btn-block ">Log In</a>
+        <a href="login.php" class="btn btn-large btn-outline-warning btn-block ">Log In/Sign up</a>
+				<p class="gallery-title">To Upload books you must log in first</p>
+                <a href="login.php" class="btn btn-large btn-outline-warning btn-block ">Upload Books</a>
 			</div>
 
 			

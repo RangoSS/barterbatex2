@@ -4,6 +4,8 @@
 session_start();
 //here we start the session and check if the session is not emty
 $first_name= isset($_SESSION['first_name']) ? $_SESSION['first_name'] : "";
+$user_id= isset($_SESSION['user_id']) ? $_SESSION['user_id'] : "";
+
 
 ?>
 <html>

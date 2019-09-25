@@ -3,17 +3,12 @@
 
 ?>
 
-
-
-
-
-
-
 <link rel="stylesheet" type="text/css" href="css/gallary.css">
 <div class="container">
         <div class="row">
         <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h1 class="gallery-title">Select your College menus (select lists):</h1>
+           <!-- <h1 class="gallery-title">Upload Books:</h1>-->
+            <a href="bookUpload.php" class="btn btn-success btn-block mb-2 mt-2">Upload your books here</a>
              <div align="center" style="border-style:solid ">
             <button class="btn btn-default filter-button" data-filter="all">All</button>
             <button class="btn btn-default filter-button" data-filter="hdpe">Acounting Science</button>

@@ -21,7 +21,7 @@
 
   	function login(){
 
- $sqls="SELECT first_name,user_email,P_password,user_type from user where user_email='$this->emailt' and P_password='$this->pwp'";
+ $sqls="SELECT user_id,first_name,user_email,P_password,user_type from user where user_email='$this->emailt' and P_password='$this->pwp'";
 
   $results=$this->getConn($sqls);
 
@@ -32,6 +32,7 @@
 
     
     $first_name=$_SESSION['first_name']=$row['first_name'];///my session
+    $user_id=$_SESSION['user_id']=$row['user_id'];
   if($row['user_type'] == 'student')
    {
    
